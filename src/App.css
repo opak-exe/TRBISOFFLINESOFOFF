@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+
+}
+img {
+  border-radius: 50%;
 }
 
 .App-logo {
@@ -7,10 +11,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.goodMoringUsa {
+border-radius: 15px;
+  border: var(--veins);
+  width: 69vw;
+  height: 69vh;
 }
 
 .App-header {
@@ -28,11 +33,8 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+:root {
+  --primary-color: #61dafb;
+--veins : 2px solid grey;
 }
